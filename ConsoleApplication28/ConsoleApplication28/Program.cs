@@ -10,10 +10,10 @@ namespace ConsoleApplication28
     {
         static void Main(string[] args)
         {
-            string name;
+            string first, last;
             Console.WriteLine("Enter your name: ");
             name = Console.ReadLine();
-            Console.WriteLine("Hello {0}", name);
+            Console.WriteLine("Hello, {0}", name);
             Console.ReadLine();
         }
     }
